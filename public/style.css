@@ -3,23 +3,23 @@
   border: 0;
   margin: 0;
   padding: 0;
+  background-color: black;
   /* border: 1px solid darkslategray; */
 }
 
 h1 {
-  background-color: #cccccc;
-  background-image: url("keys.jpg");
+  background-image: url("bwBAE.jpeg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: top;
   background-attachment: fixed;
-  background-size: 100% 100px;
-  color: rgb(55, 55, 55);
+  background-size: 50% 20%;
+  color: whitesmoke;
   font: 70px Helvetica, Arial;
   padding-bottom: 19px
 }
 
 /*----------------Nav Bar-------------*/
-.navbar {
+/* .navbar {
   display: flex;
   flex-direction: row;
   color: rgb(55, 55, 55);
@@ -42,7 +42,7 @@ h1 {
 #nv-contact {
   flex: 1;
   border: 1px solid darkslategray;
-}
+} */
 
 /*----------------Filler-------------*/
 
@@ -50,17 +50,93 @@ h1 {
   padding: 10px;
 }
 
+#filler2 {
+  padding: 30px;
+}
+
 /*----------------Spotify-------------*/
 
 .spotify {
-  list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-SpotifyPlayer {
+.song {
   flex:1;
   margin: 10%
+}
+
+/*----------------Links-------------*/
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: whitesmoke;
+  font: 12px Helvetica, Arial;
+}
+
+#twitter-link {
+  flex: 1;
+}
+#twitter-link:hover {
+  color: lightseagreen;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#facebook-link {
+  flex: 1;
+}
+#facebook-link:hover {
+  color: rgb(55, 55, 254);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#instagram-link {
+  flex: 1;
+}
+#instagram-link:hover {
+  color: purple;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#itunes-link {
+  flex: 1;
+}
+#itunes-link:hover {
+  color: magenta;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#spotify-link {
+  flex: 1;
+}
+#spotify-link:hover {
+  color: green;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#soundcloud-link {
+  flex: 1;
+}
+#soundcloud-link:hover {
+  color: coral;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#youtube-link {
+  flex: 1;
+}
+#youtube-link:hover {
+  color: crimson;
+  transition: 0.5s;
+  cursor: pointer;
 }

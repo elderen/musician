@@ -7,7 +7,7 @@ const size = {
   height: 80,
 };
 const view = 'coverart'; // or 'coverart'
-const theme = 'black'; // or 'white'
+const theme = 'white'; // or 'white'
 
 class App extends React.Component {
   constructor(props) {
@@ -19,16 +19,18 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <div className="navbar">
+        {/* <div className="navbar">
           <p id="nv-about"> About </p>
           <p id="nv-video"> Video </p>
           <p id="nv-music"> Music </p>
           <p id="nv-contact"> Contact </p>
-        </div>
+        </div> */}
+
         <div id="filler" />
         <div className="spotify">
           {this.state.uri.map((id) => {
             return <SpotifyPlayer
+              className="song"
               key={id}
               uri={id}
               size={size}
@@ -37,7 +39,17 @@ class App extends React.Component {
             />
           })}
         </div>
-        
+        <div id="filler2" />
+          <div className="links">
+            <p id="twitter-link">Twitter</p>
+            <p id="facebook-link">Facebook</p>
+            <p id="instagram-link">Instagram</p>
+            <p id="itunes-link">iTunes</p>
+            <p id="spotify-link">Spotify</p>
+            <p id="soundcloud-link">SoundCloud</p>
+            <p id="youtube-link">YouTube</p>
+          </div>
+        <div id="filler2" />
       </>
     )
   }
