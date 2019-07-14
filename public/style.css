@@ -3,13 +3,7 @@
   border: 0;
   margin: 0;
   padding: 0;
-  border: 1px solid darkslategray;
-}
-body {
-  background-color: #cccccc;
-  background-image: url("note.jpg");
-  background-position: bottom right;
-  background-size: auto;
+  /* border: 1px solid darkslategray; */
 }
 
 h1 {
@@ -66,7 +60,7 @@ h1 {
   justify-content: space-around;
 }
 
-/* #song {
+SpotifyPlayer {
   flex:1;
-  justify-self: 
-} */
+  margin: 10%
+}

@@ -4,7 +4,7 @@ import SpotifyPlayer from 'react-spotify-player';
 
 const size = {
   width: '45%',
-  height: 100,
+  height: 80,
 };
 const view = 'coverart'; // or 'coverart'
 const theme = 'black'; // or 'white'
@@ -13,7 +13,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      uri: ["spotify:track:2XeZi7qwChzLOt32tsoPXV", "spotify:track:4PouRT4KlI9TRHp45uMqdO", "spotify:track:1D2L6MefbXon28PzIk9I3r", "spotify:track:7LnU4vflcZ8fyuFaVxGtuN"]
+      uri: ["spotify:track:4tiZtoRBKOnAmZ3c95DMOo", "spotify:track:2ZitZzpm4i01kZm1nNPRPg", "spotify:track:2XeZi7qwChzLOt32tsoPXV", "spotify:track:4PouRT4KlI9TRHp45uMqdO", "spotify:track:1D2L6MefbXon28PzIk9I3r", "spotify:track:7LnU4vflcZ8fyuFaVxGtuN"]
     }
   }
   render() {
@@ -37,6 +37,7 @@ class App extends React.Component {
             />
           })}
         </div>
+        
       </>
     )
   }
