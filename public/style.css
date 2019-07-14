@@ -1,0 +1,72 @@
+* {
+  text-align: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid darkslategray;
+}
+body {
+  background-color: #cccccc;
+  background-image: url("note.jpg");
+  background-position: bottom right;
+  background-size: auto;
+}
+
+h1 {
+  background-color: #cccccc;
+  background-image: url("keys.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 100% 100px;
+  color: rgb(55, 55, 55);
+  font: 70px Helvetica, Arial;
+  padding-bottom: 19px
+}
+
+/*----------------Nav Bar-------------*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  color: rgb(55, 55, 55);
+  font: 16px Helvetica, Arial;
+  border: 1px solid darkslategray;
+}
+
+#nv-about {
+  flex: 1;
+  border: 1px solid darkslategray;
+}
+#nv-video {
+  flex: 1;
+  border: 1px solid darkslategray;
+}
+#nv-music {
+  flex: 1;
+  border: 1px solid darkslategray;
+}
+#nv-contact {
+  flex: 1;
+  border: 1px solid darkslategray;
+}
+
+/*----------------Filler-------------*/
+
+#filler {
+  padding: 10px;
+}
+
+/*----------------Spotify-------------*/
+
+.spotify {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* #song {
+  flex:1;
+  justify-self: 
+} */
